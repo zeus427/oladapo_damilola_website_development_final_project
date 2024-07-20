@@ -1,0 +1,224 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+header {
+    background-color: #0288d1;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #0288d1;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hero .btn {
+    background-color: #0288d1;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.hero .btn:hover {
+    background-color: #0277bd;
+    border: 2px solid #0277bd;
+}
+
+/* Subheading Styles */
+h2, h3 {
+    color: #0288d1;
+}
+
+/* Overview Section */
+.overview {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.overview h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.overview ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.overview ul li {
+    display: inline-block;
+    margin: 5px 15px;
+    font-size: 18px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0288d1;
+    color: #fff;
+}
+
+/* External Links Section */
+.external-links {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.external-links h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.external-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.external-links ul li {
+    margin: 5px 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* Call to Action Section */
+.cta {
+    padding: 20px;
+    text-align: center;
+    background-color: #0288d1;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.cta h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.cta .btn {
+    background-color: #fff;
+    color: #0288d1;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #0288d1;
+}
+
+.cta .btn:hover {
+    background-color: #0277bd;
+    color: #fff;
+    border: 2px solid #0277bd;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .overview ul li,
+    .testimonials blockquote {
+        display: block;
+        margin: 10px 0;
+    }
+}
